@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-  <title>QUEERING THE MAP</title>
+  <title>RESISTING BORDER TECH</title>
   <meta
     name="description"
     content="Queering the Map is a community generated counter-mapping platform for digitally archiving LGBTQ2IA+ experience in relation to physical space."
