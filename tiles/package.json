@@ -11,7 +11,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "wrangler dev",
+    "start": "wrangler dev --remote --port 8787",
     "deploy": "wrangler deploy",
     "test": "tsx ../shared/index.test.ts",
     "tsc": "tsc --watch",
@@ -19,5 +19,8 @@
     "buildlocal": "tsc",
     "biome": "biome check --config-path=../../js/ src/index.ts --apply",
     "biome-check": "biome check --config-path=../../js src/index.ts"
+  },
+  "dependencies": {
+    "fzstd": "^0.1.1"
   }
 }

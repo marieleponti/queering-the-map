@@ -8,6 +8,7 @@ import {
   TileType
 } from 'pmtiles';
 import { pmtiles_path, tileJSON, tile_path } from './shared';
+import { decompress } from 'fzstd';
 
 interface Env {
   ALLOWED_ORIGINS?: string;
@@ -30,6 +31,11 @@ async function nativeDecompress(
     const stream = new Response(buf).body;
     const result = stream?.pipeThrough(new DecompressionStream('gzip'));
     return new Response(result).arrayBuffer();
+  }
+  if (compression === Compression.Zstd) {
+    const uint8Array = new Uint8Array(buf);
+    const decompressed = decompress(uint8Array);
+    return decompressed.buffer as ArrayBuffer;
   }
   throw Error('Compression method not supported');
 }
@@ -99,14 +105,8 @@ export default {
     if (request.method.toUpperCase() === 'POST')
       return new Response(undefined, { status: 405 });
 
+    //create url object
     const url = new URL(request.url);
-    const { ok, name, tile, ext } = tile_path(url.pathname);
-
-    const cache = caches.default;
-
-    if (!ok) {
-      return new Response('Invalid URL', { status: 404 });
-    }
 
     let allowedOrigin = '';
     const requestOrigin = request.headers.get('Origin');
@@ -117,6 +117,50 @@ export default {
           break;
         }
       }
+    }
+
+    // Serve static files (sprites, etc)
+
+    if (url.pathname.match(/\.(json|png)$/)) {
+      console.log('=== STATIC FILE REQUEST ===');
+      console.log('pathname:', url.pathname);
+
+      try {
+        const fileName = url.pathname.substring(1);
+        console.log('fileName:', fileName);
+
+        const file = await env.BUCKET.get(fileName);
+        console.log('file found:', file !== null);
+
+        if (file) {
+          const headers = new Headers();
+          if (fileName.endsWith('.json')) {
+            headers.set('Content-Type', 'application/json');
+          } else if (fileName.endsWith('.png')) {
+            headers.set('Content-Type', 'image/png');
+          }
+          headers.set('Access-Control-Allow-Origin', allowedOrigin || '*');
+          headers.set(
+            'Cache-Control',
+            env.CACHE_CONTROL || 'public, max-age=86400'
+          );
+
+          return new Response(file.body, { headers });
+        } else {
+          console.log('File not found in bucket:', fileName);
+        }
+      } catch (e) {
+        console.error('Error serving static file:', e);
+      }
+    }
+    // end servce static files
+
+    //validate tiles
+    const { ok, name, tile, ext } = tile_path(url.pathname);
+    const cache = caches.default;
+
+    if (!ok) {
+      return new Response('Invalid URL', { status: 404 });
     }
 
     const cached = await cache.match(request.url);

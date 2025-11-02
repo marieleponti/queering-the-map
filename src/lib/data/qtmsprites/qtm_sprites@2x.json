@@ -1,0 +1,30 @@
+{
+  "poi_bus": {
+    "height": 452,
+    "pixelRatio": 2,
+    "width": 460,
+    "x": 0,
+    "y": 0
+  },
+  "poi_metro": {
+    "height": 452,
+    "pixelRatio": 2,
+    "width": 460,
+    "x": 460,
+    "y": 0
+  },
+  "poi_railway": {
+    "height": 452,
+    "pixelRatio": 2,
+    "width": 460,
+    "x": 0,
+    "y": 452
+  },
+  "poi_subway": {
+    "height": 452,
+    "pixelRatio": 2,
+    "width": 460,
+    "x": 460,
+    "y": 452
+  }
+}
