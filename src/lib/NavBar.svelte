@@ -25,7 +25,8 @@
   {/if}
 
   <div id="logo">
-    <img src={logo} alt="" />
+   /* <img src={logo} alt="" /> */
+    <title>RESISTING BORDER TECH</title>
   </div>
 
   <button
