@@ -7,11 +7,11 @@
   "sources": {
     "qtm_pmtiles": {
       "type": "vector",
-      "url": "http://pmtiles-cloudflare.rbt-map.workers.dev/planet_z6.json",
+      "url": "https://pmtiles-cloudflare.rbt-map.workers.dev/planet_z6.json",
       "attribution": "© <a href='https://openstreetmap.org'>OpenStreetMap</a>"
     }
   },
-  "sprite": "http://pmtiles-cloudflare.rbt-map.workers.dev/qtm_sprites",
+  "sprite": "https://pmtiles-cloudflare.rbt-map.workers.dev/qtm_sprites",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
   "layers": [
     {
