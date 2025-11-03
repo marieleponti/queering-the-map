@@ -59,7 +59,7 @@
       captchaToken
     });
 
-    const response = await fetch('moments', {
+    const response = await fetch('/moments', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
