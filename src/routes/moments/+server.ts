@@ -50,8 +50,6 @@ export const POST: RequestHandler = async ({ request }) => {
   return json({}, { status: 201 });
 };
 
-
-
 //GET method to get moments from Supabase
 export const GET: RequestHandler = async () => {
   try {
