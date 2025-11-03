@@ -25,7 +25,7 @@
   {/if}
 
   <div id="logo">
-     <img src={logo} alt="" /> 
+    <img src={logo} alt="" />
   </div>
 
   <button
