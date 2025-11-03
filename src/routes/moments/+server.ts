@@ -55,7 +55,7 @@ export const GET: RequestHandler = async () => {
   try {
     const { data, error } = await supabase
       .from('moments')
-      .select('id, location, status')
+      .select('short_id, location, status')
       .eq('status', 'approved');
 
     if (error) {
@@ -67,7 +67,7 @@ export const GET: RequestHandler = async () => {
       type: 'FeatureCollection',
       features: data.map((moment) => ({
         type: 'Feature',
-        id: moment.id,
+        id: moment.short_id,
         geometry: moment.location,
         properties: {}
       }))
