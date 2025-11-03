@@ -49,3 +49,34 @@ export const POST: RequestHandler = async ({ request }) => {
 
   return json({}, { status: 201 });
 };
+
+
+
+//GET method to get moments from Supabase
+export const GET: RequestHandler = async () => {
+  try {
+    const { data, error } = await supabase
+      .from('moments')
+      .select('id, location, status')
+      .eq('status', 'approved');
+
+    if (error) {
+      return json({ error: error.message }, { status: 500 });
+    }
+
+    //Convert to GeoJSON
+    const geojson = {
+      type: 'FeatureCollection',
+      features: data.map((moment) => ({
+        type: 'Feature',
+        id: moment.id,
+        geometry: moment.location,
+        properties: {}
+      }))
+    };
+
+    return json(geojson);
+  } catch (error) {
+    return json({ error: 'Failed to fetch moments' }, { status: 500 });
+  }
+};
