@@ -23,10 +23,6 @@
     </button>
   {/if}
 
-  <div>
-    <h1>RESISTING THE EVERYWHERE BORDER</h1>
-  </div>
-
   <button
     on:click={openAddOverlay}
     class="overlay-trigger overlay-trigger--add"
