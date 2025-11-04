@@ -1,5 +1,4 @@
 <script>
-  import logo from '$lib/assets/QTM_LOGO2024.png';
   import InfoButton from './InfoButton.svelte';
   import AddButton from './AddButton.svelte';
   import { infoOverlayVisible, addOverlayVisible } from '../stores';
@@ -24,8 +23,8 @@
     </button>
   {/if}
 
-  <div id="logo">
-    <img src={logo} alt="" />
+  <div>
+    <h1>RESISTING THE EVERYWHERE BORDER</h1>
   </div>
 
   <button
@@ -39,32 +38,6 @@
 </nav>
 
 <style>
-  /****************************************************************************/
-  /* The logo */
-  /****************************************************************************/
-
-  #logo {
-    display: inline-block;
-    position: absolute;
-    text-align: center;
-    top: 6px;
-    width: 100%;
-    margin: 0 auto;
-    pointer-events: none;
-    z-index: var(--logo-z-index);
-  }
-  @media (max-width: 800px) {
-    #logo img {
-      height: 51px;
-    }
-  }
-
-  @media (min-width: 800px) {
-    #logo img {
-      width: 200px;
-    }
-  }
-
   /****************************************************************************/
   /* The menu buttons (info and add). */
   /****************************************************************************/
