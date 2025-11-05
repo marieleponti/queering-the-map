@@ -42,16 +42,16 @@
     features: []
   };
 
-  async function getMoment(id?: number | string) {
-    try {
-      const response = await fetch(`/moment/${id}`);
-      const moment = await response.json();
-      return moment.description;
-    } catch (error) {
-      console.error('Error fetching moment:', error);
-      return '';
-    }
-  }
+  // async function getMoment(id?: number | string) {
+  //   try {
+  //     const response = await fetch(`/moment/${id}`);
+  //     const moment = await response.json();
+  //     return moment.description;
+  //   } catch (error) {
+  //     console.error('Error fetching moment:', error);
+  //     return '';
+  //   }
+  // }
 
   async function loadImageAndAddToMap(
     map: MapType,
@@ -167,25 +167,40 @@
             return;
           }
 
-          getMoment(feature.id)
-            .then((text) => {
-              const description = text;
-              if (coordinates.length === 2) {
-                new Popup({
-                  offset: [0, -markerHeight],
-                  anchor: 'bottom',
-                  maxWidth: 'none'
-                })
-                  .setLngLat(coordinates as LngLatLike)
-                  .setHTML(description)
-                  .addTo(map);
-              } else {
-                console.error('Invalid coordinates format');
-              }
+          // getMoment(feature.id)
+          //   .then((text) => {
+          //     const description = text;
+          //     if (coordinates.length === 2) {
+          //       new Popup({
+          //         offset: [0, -markerHeight],
+          //         anchor: 'bottom',
+          //         maxWidth: 'none'
+          //       })
+          //         .setLngLat(coordinates as LngLatLike)
+          //         .setHTML(description)
+          //         .addTo(map);
+          //     } else {
+          //       console.error('Invalid coordinates format');
+          //     }
+          //   })
+          //   .catch((error) => {
+          //     console.error('Error fetching moment:', error);
+          //   });
+
+          const description = feature.properties?.description || '';
+
+          if (coordinates.length === 2) {
+            new Popup({
+              offset: [0, -markerHeight],
+              anchor: 'bottom',
+              maxWidth: 'none'
             })
-            .catch((error) => {
-              console.error('Error fetching moment:', error);
-            });
+              .setLngLat(coordinates as LngLatLike)
+              .setHTML(description)
+              .addTo(map);
+          } else {
+            console.error('Invalid coordinates format');
+          }
         }
       );
 
