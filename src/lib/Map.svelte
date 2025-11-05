@@ -274,6 +274,16 @@
     }
   }
 
+  export function flyTo(lng: number, lat: number, zoom: number = 13) {
+    if (map) {
+      map.flyTo({
+        center: [lng, lat],
+        zoom: zoom,
+        duration: 2000
+      });
+    }
+  }
+
   onDestroy(() => {
     if (map) {
       map.remove();
