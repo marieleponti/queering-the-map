@@ -307,9 +307,9 @@
         "visibility": "visible"
       },
       "paint": {
-        "line-color": "#DDDDDD",
+        "line-color": "#4F4557",
         "line-width": {
-          "base": 1,
+          "base": 4,
           "stops": [
             [0, 0.6],
             [4, 1],
