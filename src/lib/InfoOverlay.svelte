@@ -1024,37 +1024,7 @@
     padding-right: 1.5em;
     list-style-type: circle;
   }
-  .__press h2.divider {
-    border-top: 1.01px solid var(--color-dark);
-    padding-top: 1em;
-    padding-left: 2.05rem;
-    font-weight: bold !important;
-  }
-  .__press {
-    display: flex;
-    flex-direction: column;
-  }
-  .__press span {
-    padding-left: 10px;
-    margin-top: 10px;
-    display: none;
-    /* hides press names */
-  }
-  .__press a {
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0px;
-    font-size: 15px;
-  }
-  .__press h2 {
-    font-size: 15.1px;
-    border-top: 0px;
-    padding-top: 4px;
-    padding-left: 1em;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    font-weight: 400 !important;
-  }
+
   .footer__menu__margin {
     margin-top: 20px;
     width: calc((40vw));
@@ -1255,5 +1225,4 @@
       height: 125%;
     }
   }
-
 </style>

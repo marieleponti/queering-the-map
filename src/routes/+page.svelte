@@ -9,7 +9,6 @@
   import SearchBox from '$lib/SearchBox.svelte';
   import { addOverlayVisible, infoOverlayVisible } from '../stores';
   import qtm_sharing_image from '$lib/assets/qtm_sharing_image.jpg';
-  import DonatePopup from '$lib/DonatePopup.svelte';
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let mapComponent: any;
@@ -24,19 +23,13 @@
 
 <svelte:head>
   <title>RESISTING BORDER TECH</title>
-  <meta
-    name="description"
-    content=""
-  />
+  <meta name="description" content="" />
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="" />
   <meta property="og:title" content="" />
   <meta property="og:image" content={qtm_sharing_image} />
-  <meta
-    property="og:description"
-    content=""
-  />
+  <meta property="og:description" content="" />
   <meta property="og:site_name" content="" />
   <meta property="og:locale" content="en_US" />
   <meta
@@ -46,10 +39,7 @@
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="" />
-  <meta
-    name="twitter:description"
-    content=""
-  />
+  <meta name="twitter:description" content="" />
   <meta name="twitter:image" content={qtm_sharing_image} />
 </svelte:head>
 
@@ -64,7 +54,6 @@
   <AddOverlay></AddOverlay>
 {/if}
 <Map bind:this={mapComponent}></Map>
-<DonatePopup></DonatePopup>
 
 <style>
   .search-wrapper {
