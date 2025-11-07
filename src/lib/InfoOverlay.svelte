@@ -627,13 +627,13 @@
           </p>
           <p>
             Materials (including without limit all information, software, data,
-            text, photographs, graphics, sound and video) placed on any Map Services by us, 
-            or on our behalf, are protected by our (or
-            our business partners/suppliers/advertisers or licensors) copyright
-            and other intellectual property rights. You may not use these
-            materials or any Resisting the Everywhere Border Map Services except
-            in accordance with these Terms and for personal and non-commercial
-            use only.
+            text, photographs, graphics, sound and video) placed on any Map
+            Services by us, or on our behalf, are protected by our (or our
+            business partners/suppliers/advertisers or licensors) copyright and
+            other intellectual property rights. You may not use these materials
+            or any Resisting the Everywhere Border Map Services except in
+            accordance with these Terms and for personal and non-commercial use
+            only.
           </p>
           <p>
             You acknowledge that all intellectual property and other rights in
@@ -643,9 +643,9 @@
             Resisting the Everywhere Border Map and/or our licensors. As part of
             the license granted under these Terms, you are only granted limited
             non transferrable, non-sub-licensable permission (which can be
-            revoked at any time) to use such content or Map
-            Services, subject to and in accordance with these Terms and solely
-            for your personal and non-commercial use.
+            revoked at any time) to use such content or Map Services, subject to
+            and in accordance with these Terms and solely for your personal and
+            non-commercial use.
           </p>
 
           <p>
