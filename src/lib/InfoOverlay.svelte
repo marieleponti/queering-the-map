@@ -199,6 +199,14 @@
       <section style={active_tab !== 4 ? 'display: none;' : ''}>
         <h2 style="margin-bottom:0px;">Selected Press</h2>
 
+        <p>
+          Our work draws upon and contributes to the info repository on
+          everywhereborder.org, which features allied scholars in migration,
+          surveillance, and technology studies. For press inquiries, interviews,
+          or collaborations, please contact us at contact@everywhereborder.org
+        </p>
+
+        <h3>Featured work:</h3>
         <div class="__press">
           <h2>Transnational Institute</h2>
           <a
