@@ -2,9 +2,9 @@
 
 :root {
   /* colors */
-  --color-dark: #231f20;
-  --color-pink: #f4b9d6;
-  --color-pink-bright: #ff00ff;
+  --color-dark: #2f2e2e;
+  --color-pink: #ebebeb;
+  --color-pink-bright: #F5C670;
 
   /* breakpoints */
   --screen-wide: 800px;

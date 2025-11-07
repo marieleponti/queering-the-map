@@ -1030,13 +1030,13 @@
     width: calc((40vw));
     position: sticky;
     bottom: 0px;
-    background: var(--color-pink);
+    background: var(--color-light);
   }
   .header__menu__margin {
     width: calc((40% - 43px));
     left: 54px;
     position: fixed;
-    background: var(--color-pink);
+    background: var(--color-light);
   }
 
   .info__tabs {
@@ -1057,11 +1057,11 @@
   }
   .info__tabs button.active {
     background-color: var(--color-dark);
-    color: var(--color-pink);
+    color: var(--color-lightt);
   }
   .info__tabs button:hover {
     background-color: black;
-    color: var(--color-pink);
+    color: var(--color-light);
     transition-duration: 300ms;
     transition-timing-function: ease;
   }
@@ -1095,7 +1095,7 @@
     position: fixed;
     z-index: var(--overlay-z-index);
     top: 0;
-    background-color: var(--color-pink);
+    background-color: var(--color-light);
     overflow-x: hidden;
   }
 
@@ -1157,8 +1157,8 @@
 
   a:not(.closebtn):hover,
   a:not(.closebtn):focus {
-    color: var(--color-pink-bright);
-    text-decoration-color: var(--color-pink-bright);
+    color: var(--color-light-bright);
+    text-decoration-color: var(--color-light-bright);
   }
 
   .overlay--info {
@@ -1191,7 +1191,7 @@
       width: calc(100vw - 18px);
     }
     .overlay__outer {
-      background: var(--color-pink);
+      background: var(--color-light);
       border: 1.01px solid var(--color-dark);
       border-bottom: 0px;
     }

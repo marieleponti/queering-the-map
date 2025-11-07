@@ -61,8 +61,7 @@
       "source-layer": "landcover",
       "filter": ["all", ["==", "pmap:kind", "forest"]],
       "paint": {
-          "fill-color": "#C8D4B8"
-
+        "fill-color": "#C8D4B8"
       }
     },
     {
@@ -85,7 +84,6 @@
       "filter": ["all", ["==", "pmap:kind", "bare_rock"]],
       "paint": {
         "fill-color": "#D4CFC0"
-
       }
     },
     {
@@ -97,7 +95,6 @@
       "filter": ["all", ["==", "pmap:kind", "sand"]],
       "paint": {
         "fill-color": "#D4CFC0"
-
       }
     },
     {

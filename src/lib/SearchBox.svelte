@@ -99,7 +99,7 @@
     padding: 10px 15px;
     font-size: 14px;
     border: 1.01px solid var(--color-dark);
-    background-color: var(--color-pink);
+    background-color: var(--color-light);
     font-family: 'Apfel Grotezk', sans-serif;
     box-sizing: border-box;
   }
@@ -115,7 +115,7 @@
     left: 0;
     right: 0;
     padding: 10px;
-    background: var(--color-pink);
+    background: var(--color-light);
     border: 1.01px solid var(--color-dark);
     border-top: none;
     font-size: 12px;
@@ -126,7 +126,7 @@
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--color-pink);
+    background: var(--color-light);
     border: 1.01px solid var(--color-dark);
     border-top: none;
     max-height: 300px;
