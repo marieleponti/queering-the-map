@@ -168,10 +168,9 @@
         <h2>Who made resisting the Everywhere Border Map?</h2>
         <div class="overlay__section-text">
           <p>
-            Resisting the Everywhere Border is forked from Resisting the Everywhere Border Map,
-            which was created by Lucas LaRochelle in 2017. The platform is
-            maintained by LaRochelle and a global network of moderators,
-            developers, and advisors.
+            Resisting the Everywhere Border is forked from <a href="https://github.com/radical-data/queering-the-map">Queering the Map</a>, which was created by Lucas LaRochelle in
+            2017. The platform is maintained by LaRochelle and a global network
+            of moderators, developers, and advisors.
           </p>
           <p>
             This network includes (in alphabetical order by last name):
@@ -210,19 +209,21 @@
           <span> By Mizue Aizeki, Laura Bingham, and Santiago Narváez</span>
         </div>
 
-           <div class="__press">
+        <div class="__press">
           <h2>Haymarket Books, 2024</h2>
           <a
             href="https://www.haymarketbooks.org/books/2094-resisting-borders-and-technologies-of-violence"
             title="Resisting Borders and Technologies of Violence"
             rel="noopener noreferrer"
-            target="_blank"
-            >Resisting Borders and Technologies of Violence</a
+            target="_blank">Resisting Borders and Technologies of Violence</a
           >
-          <span>By Laura Bingham, Santiago Narváez, Teresa Perosa, and Mizue Aizeki,</span>
+          <span
+            >By Laura Bingham, Santiago Narváez, Teresa Perosa, and Mizue
+            Aizeki,</span
+          >
         </div>
 
-           <div class="__press">
+        <div class="__press">
           <h2>Temple University Beasley School of Law, 2025</h2>
           <a
             href="https://www.everywhereborder.org/resources/digital-migration-control-infrastructure-as-worldmaking/ "
@@ -233,7 +234,6 @@
           >
           <span> By Mizue Aizeki, Laura Bingham, and Santiago Narváez</span>
         </div>
-        
       </section>
 
       <section style={active_tab !== 6 ? 'display: none;' : ''}>
@@ -262,10 +262,10 @@
           <ul>
             <li>
               <p>
-                By using the Resisting the Everywhere Border Map website, application or other
-                services (“Services”), you agree to our Terms of Use and our
-                Privacy Policy. If you don’t agree to our Terms of Use or
-                Privacy Policy, do not use our Services.
+                By using the Resisting the Everywhere Border Map website,
+                application or other services (“Services”), you agree to our
+                Terms of Use and our Privacy Policy. If you don’t agree to our
+                Terms of Use or Privacy Policy, do not use our Services.
               </p>
             </li>
             <li>
@@ -282,16 +282,17 @@
                 us and other users of the website permission to use, modify, and
                 share your User Content, both on the website itself and beyond
                 it. You confirm that you own or have permission to use the
-                content you share and agree that Resisting the Everywhere Border Map and others can
-                use it according to these terms.
+                content you share and agree that Resisting the Everywhere Border
+                Map and others can use it according to these terms.
               </p>
             </li>
             <li>
               <p>
                 You retain the right to remove User Content that you have
-                submitted. If you want your User
-                Content removed at any time, and for any reason, Please 
-                <a href="https://www.everywhereborder.org/about/#et_pb_contact_form_0"
+                submitted. If you want your User Content removed at any time,
+                and for any reason, Please
+                <a
+                  href="https://www.everywhereborder.org/about/#et_pb_contact_form_0"
                   >contact us.</a
                 >.
               </p>
@@ -346,53 +347,54 @@
           </ul>
           <h2>1. Introduction</h2>
           <p>
-            The Resisting the Everywhere Border Map website, application and other services (the
-            “Queering the Ma Services”) are made available to you in accordance
-            with these Terms by Resisting the Everywhere Border Map (“Resisting the Everywhere Border Map”, “we”,
-            “our”, “us”). These terms and conditions of use, together with our
-            Privacy Policy and all supplemental terms (as amended from time to
-            time), other documents and policies that are expressly referenced in
-            these terms and conditions (the “Terms”), govern your use of the
-            Services.
+            The Resisting the Everywhere Border Map website, application and
+            other services are made available
+            to you in accordance with these Terms by Resisting the Everywhere
+            Border Map (“Resisting the Everywhere Border Map”, “we”, “our”,
+            “us”). These terms and conditions of use, together with our Privacy
+            Policy and all supplemental terms (as amended from time to time),
+            other documents and policies that are expressly referenced in these
+            terms and conditions (the “Terms”), govern your use of the Services.
           </p>
           <p>
             Please read these Terms carefully. These Terms form a legally
             binding contract between you and us. By downloading, accessing or
-            otherwise using any Resisting the Everywhere Border Map Services in any way, you agree
-            to be bound by these Terms. If you do not agree to be bound by these
-            Terms you should not access, post User Content on, or otherwise
-            engage with any Resisting the Everywhere Border Map Services.
+            otherwise using any Resisting the Everywhere Border Map Services in
+            any way, you agree to be bound by these Terms. If you do not agree
+            to be bound by these Terms you should not access, post User Content
+            on, or otherwise engage with any Resisting the Everywhere Border Map
+            Services.
           </p>
           <p>
             Please keep a copy of these terms for future reference. You should
-            check these terms every time you use any Resisting the Everywhere Border Map Services
-            as we may change these terms at any time in accordance with the
-            process set out at Section 2 below.
+            check these terms every time you use any Resisting the Everywhere
+            Border Map Services as we may change these terms at any time in
+            accordance with the process set out at Section 2 below.
           </p>
 
           <h2>2. Changes To These Terms</h2>
           <p>
             We may change these Terms to reflect: (a) changes in applicable
             laws; (b) regulatory or security requirements; (c) relevant guidance
-            or codes of practice; (d) technical alterations to Resisting the Everywhere Border Map
-            Services; (e) improvements for clarity and consistency; or (f) any
-            other reason within our sole discretion.
+            or codes of practice; (d) technical alterations to Resisting the
+            Everywhere Border Map Services; (e) improvements for clarity and
+            consistency; or (f) any other reason within our sole discretion.
           </p>
 
           <p>
-            Please check the Terms whenever you use any Resisting the Everywhere Border Map
-            Services. We will treat your continued use of the Resisting the Everywhere Border Map
-            Services as acceptance of any changes made to the Terms from the
-            previous version. If you do not agree with the changes you should
-            stop using our Services.
+            Please check the Terms whenever you use any Resisting the Everywhere
+            Border Map Services. We will treat your continued use of the
+            Resisting the Everywhere Border Map Services as acceptance of any
+            changes made to the Terms from the previous version. If you do not
+            agree with the changes you should stop using our Services.
           </p>
 
           <h2>3. Your Right to Post User Content</h2>
           <p>
-            Resisting the Everywhere Border Map (‘the Service’) allows you to post content. You
-            retain any and all of your rights to any content you submit, post or
-            display on or through Resisting the Everywhere Border Map and you are responsible for
-            protecting those rights.
+            Resisting the Everywhere Border Map (‘the Service’) allows you to
+            post content. You retain any and all of your rights to any content
+            you submit, post or display on or through Resisting the Everywhere
+            Border Map and you are responsible for protecting those rights.
           </p>
 
           <p>
@@ -426,26 +428,27 @@
           <h2>4. Removal Of User Content</h2>
           <p>
             You retain the right to remove User Content that you have submitted
-            to the Resisting the Everywhere Border Map Services. If you want your User Content
-            removed from the Resisting the Everywhere Border Map Services at any time, and for any
-            reason, please contact us at <a href="mailto:hi@queeringthemap.com"
-              >hi@queeringthemap.com</a
-            >. We will remove your content from the Resisting the Everywhere Border Map Services in
-            a reasonable and timely manner.
+            to the Resisting the Everywhere Border Map Services. If you want
+            your User Content removed from the Resisting the Everywhere Border
+            Map Services at any time, and for any reason, please contact us at <a
+              href="mailto:hi@queeringthemap.com">hi@queeringthemap.com</a
+            >. We will remove your content from the Resisting the Everywhere
+            Border Map Services in a reasonable and timely manner.
           </p>
           <p>
-            We retain the right to remove User Content from Resisting the Everywhere Border Map
-            Services at any time, and for any reason.
+            We retain the right to remove User Content from Resisting the
+            Everywhere Border Map Services at any time, and for any reason.
           </p>
 
           <h2>5. Content Standards Policy</h2>
           <p>
             You may have the opportunity to create, upload and/or share content
-            when using the Resisting the Everywhere Border Map Services (“User Content”). You shall
-            ensure that all User Content created or posted by you satisfies the
-            requirements set out in this Section 5. These requirements apply in
-            addition to any other policies or terms of use we provide or are
-            published in the Resisting the Everywhere Border Map Services from time to time.
+            when using the Resisting the Everywhere Border Map Services (“User
+            Content”). You shall ensure that all User Content created or posted
+            by you satisfies the requirements set out in this Section 5. These
+            requirements apply in addition to any other policies or terms of use
+            we provide or are published in the Resisting the Everywhere Border
+            Map Services from time to time.
           </p>
 
           <h2>User Content:</h2>
@@ -482,9 +485,9 @@
             <li>Promote violence or discrimination;</li>
             <li>
               Reveal details that enable you or anyone else to be identified or
-              contacted outside of the Resisting the Everywhere Border Map Services (e.g. last
-              name, postal address, email address, telephone number or social
-              media handle);
+              contacted outside of the Resisting the Everywhere Border Map
+              Services (e.g. last name, postal address, email address, telephone
+              number or social media handle);
             </li>
             <li>
               Be defamatory or an invasion of an individual’s right to privacy;
@@ -516,15 +519,17 @@
             </li>
           </ul>
 
-          <h2>6. Your License To Use Resisting the Everywhere Border Map Services</h2>
+          <h2>
+            6. Your License To Use Resisting the Everywhere Border Map Services
+          </h2>
 
           <p>
-            Resisting the Everywhere Border Map Services operates under the terms of the Creative
-            Commons Attribution-NonCommercial-ShareAlike 4.0 International
-            License ("License"). By accessing or using this website, you agree
-            to comply with the terms of this License.The full text of the
-            Creative Commons Attribution-NonCommercial-ShareAlike 4.0
-            International License is available at the following URL:
+            Resisting the Everywhere Border Map Services operates under the
+            terms of the Creative Commons Attribution-NonCommercial-ShareAlike
+            4.0 International License ("License"). By accessing or using this
+            website, you agree to comply with the terms of this License.The full
+            text of the Creative Commons Attribution-NonCommercial-ShareAlike
+            4.0 International License is available at the following URL:
             https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en.
           </p>
 
@@ -556,17 +561,17 @@
             </li>
           </ul>
           <p>
-            By using Resisting the Everywhere Border Map Services, you acknowledge that we offer
-            the material of the website under the Creative Commons
-            Attribution-NonCommercial-ShareAlike 4.0 International License, and
-            you agree to comply with its terms.
+            By using Resisting the Everywhere Border Map Services, you
+            acknowledge that we offer the material of the website under the
+            Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+            International License, and you agree to comply with its terms.
           </p>
 
           <p>
             If you do not agree with the terms of this License, you are not
-            authorized to use or access the Resisting the Everywhere Border Map Services. For any
-            questions or clarifications regarding this License, please refer to
-            the provided URL or contact us at <a
+            authorized to use or access the Resisting the Everywhere Border Map
+            Services. For any questions or clarifications regarding this
+            License, please refer to the provided URL or contact us at <a
               href="mailto:hi@queeringthemap.com">hi@queeringthemap.com</a
             >.
           </p>
@@ -574,10 +579,11 @@
           <h2>7. Intellectual Property Rights, Ownership And Restrictions</h2>
 
           <p>
-            The names, brands and logos in the Resisting the Everywhere Border Map Services,
-            whether existing now or in the future, are either the registered
-            and/or unregistered trademarks of Resisting the Everywhere Border Map or owned by
-            third-parties and licensed for our use.
+            The names, brands and logos in the Resisting the Everywhere Border
+            Map Services, whether existing now or in the future, are either the
+            registered and/or unregistered trademarks of Resisting the
+            Everywhere Border Map or owned by third-parties and licensed for our
+            use.
           </p>
           <p>
             Materials (including without limit all information, software, data,
@@ -585,68 +591,76 @@
             the Map Services by us, or on our behalf, are protected by our (or
             our business partners/suppliers/advertisers or licensors) copyright
             and other intellectual property rights. You may not use these
-            materials or any Resisting the Everywhere Border Map Services except in accordance with
-            these Terms and for personal and non-commercial use only.
+            materials or any Resisting the Everywhere Border Map Services except
+            in accordance with these Terms and for personal and non-commercial
+            use only.
           </p>
           <p>
             You acknowledge that all intellectual property and other rights in
-            any Resisting the Everywhere Border Map Services, including without limitation any
-            content, and virtual items in the Resisting the Everywhere Border Map Services are and
-            will remain the property of Resisting the Everywhere Border Map and/or our licensors.
-            As part of the license granted under these Terms, you are only
-            granted limited non transferrable, non-sub-licensable permission
-            (which can be revoked at any time) to use such content or Queering
-            the Map Services, subject to and in accordance with these Terms and
-            solely for your personal and non-commercial use.
+            any Resisting the Everywhere Border Map Services, including without
+            limitation any content, and virtual items in the Resisting the
+            Everywhere Border Map Services are and will remain the property of
+            Resisting the Everywhere Border Map and/or our licensors. As part of
+            the license granted under these Terms, you are only granted limited
+            non transferrable, non-sub-licensable permission (which can be
+            revoked at any time) to use such content or Queering the Map
+            Services, subject to and in accordance with these Terms and solely
+            for your personal and non-commercial use.
           </p>
 
           <p>
             Notwithstanding anything to the contrary herein, you acknowledge and
             agree that you shall have no ownership, title, or other proprietary
-            interest in any Resisting the Everywhere Border Map Services. We do not permit any
-            sale, gift or trade outside of the Resisting the Everywhere Border Map Services of
-            anything that appears or originates in the Resisting the Everywhere Border Map
-            Services.
+            interest in any Resisting the Everywhere Border Map Services. We do
+            not permit any sale, gift or trade outside of the Resisting the
+            Everywhere Border Map Services of anything that appears or
+            originates in the Resisting the Everywhere Border Map Services.
           </p>
 
           <p>
-            We reserve the right to stop offering any Resisting the Everywhere Border Map Services
-            at any time, either permanently or temporarily, at which point any
-            license granted to you to use the Resisting the Everywhere Border Map Services or a
-            part thereof will be automatically terminated or suspended. In such
-            event, Resisting the Everywhere Border Map shall not be required to provide refunds,
+            We reserve the right to stop offering any Resisting the Everywhere
+            Border Map Services at any time, either permanently or temporarily,
+            at which point any license granted to you to use the Resisting the
+            Everywhere Border Map Services or a part thereof will be
+            automatically terminated or suspended. In such event, Resisting the
+            Everywhere Border Map shall not be required to provide refunds,
             benefits or other compensation to users in connection with such
-            discontinued elements of the Resisting the Everywhere Border Map Services unless
-            required by law.
+            discontinued elements of the Resisting the Everywhere Border Map
+            Services unless required by law.
           </p>
 
           <h2>8. Preteens And Users Under 18</h2>
           <p>
-            You may not use the Resisting the Everywhere Border Map Services if you are under the
-            age of 13. For users between 13 and 18 years of age, subject to the
-            laws of your country of residence and you obtaining your
-            parents’/guardians’ prior consent, you will be entitled to use the
-            Resisting the Everywhere Border Map Services. We do not knowingly collect or store any
-            personally identifiable information from children under 13.
+            You may not use the Resisting the Everywhere Border Map Services if
+            you are under the age of 13. For users between 13 and 18 years of
+            age, subject to the laws of your country of residence and you
+            obtaining your parents’/guardians’ prior consent, you will be
+            entitled to use the Resisting the Everywhere Border Map Services. We
+            do not knowingly collect or store any personally identifiable
+            information from children under 13.
           </p>
           <p>
-            If you are under 18, by using the Resisting the Everywhere Border Map Services you are
-            representing that you have consent from your parents/guardian to use
-            the Resisting the Everywhere Border Map Services in accordance with our Terms. You and
-            your parent(s) or guardian(s) must review these Terms together.
-            Parents and guardians are responsible for the acts of children under
-            18 years of age when using the Resisting the Everywhere Border Map Services. We
-            recommend that parents and guardians familiarize themselves with
-            parental controls on devices they provide their child.
+            If you are under 18, by using the Resisting the Everywhere Border
+            Map Services you are representing that you have consent from your
+            parents/guardian to use the Resisting the Everywhere Border Map
+            Services in accordance with our Terms. You and your parent(s) or
+            guardian(s) must review these Terms together. Parents and guardians
+            are responsible for the acts of children under 18 years of age when
+            using the Resisting the Everywhere Border Map Services. We recommend
+            that parents and guardians familiarize themselves with parental
+            controls on devices they provide their child.
           </p>
 
-          <h2>9. Functioning Of Resisting the Everywhere Border Map Services</h2>
+          <h2>
+            9. Functioning Of Resisting the Everywhere Border Map Services
+          </h2>
           <p>
             We will use reasonable endeavors to maintain the operation of the
-            Resisting the Everywhere Border Map Services and rectify faults as quickly as possible.
-            We reserve the right to modify, including by way of regular updates,
-            the Resisting the Everywhere Border Map Services and we may have to suspend operation
-            of any Resisting the Everywhere Border Map Services without notice for repair,
+            Resisting the Everywhere Border Map Services and rectify faults as
+            quickly as possible. We reserve the right to modify, including by
+            way of regular updates, the Resisting the Everywhere Border Map
+            Services and we may have to suspend operation of any Resisting the
+            Everywhere Border Map Services without notice for repair,
             maintenance, improvement, security or any other reason. If so, we
             will do our best to ensure that the suspension is as short as
             possible. We cannot accept responsibility for such suspensions,
@@ -654,51 +668,54 @@
             reasonable control.
           </p>
           <p>
-            We cannot guarantee that any Resisting the Everywhere Border Map Services will work on
-            or be compatible with or capable of being accessed on any particular
-            devices, platforms, operating systems or equipment, or in
-            conjunction with any particular non-Resisting the Everywhere Border Map approved
-            software or connectivity services. We do not accept responsibility
-            for such equipment, software or services. We also do not guarantee
-            that the Resisting the Everywhere Border Map Services can be accessed in all geographic
-            locations.
+            We cannot guarantee that any Resisting the Everywhere Border Map
+            Services will work on or be compatible with or capable of being
+            accessed on any particular devices, platforms, operating systems or
+            equipment, or in conjunction with any particular non-Resisting the
+            Everywhere Border Map approved software or connectivity services. We
+            do not accept responsibility for such equipment, software or
+            services. We also do not guarantee that the Resisting the Everywhere
+            Border Map Services can be accessed in all geographic locations.
           </p>
 
           <h2>10. Third Party Sites And Technologies</h2>
           <p>
-            Resisting the Everywhere Border Map Services may include links to internet sites or
-            other technologies supplied by third parties. We make no promises
-            about those third-party sites, technologies, or their content,
-            products, or services as these are outside our reasonable control.
-            Any third-party sites or technologies suggested are not endorsed,
-            controlled, or verified by us. We do not guarantee that any
-            suggested technologies will work on your computer or be virus free.
-            Any suggestions made are not a warranty of any kind, and we are not
-            responsible for any disruption, problem, damage, data loss, cost, or
-            inconvenience caused by the suggested sites or technologies. We will
-            not provide support for any sites or technologies which are not our
-            own. We exercise no control over the copyright, patent, or trademark
-            compliance or legality of the suggested sites or technologies.
+            Resisting the Everywhere Border Map Services may include links to
+            internet sites or other technologies supplied by third parties. We
+            make no promises about those third-party sites, technologies, or
+            their content, products, or services as these are outside our
+            reasonable control. Any third-party sites or technologies suggested
+            are not endorsed, controlled, or verified by us. We do not guarantee
+            that any suggested technologies will work on your computer or be
+            virus free. Any suggestions made are not a warranty of any kind, and
+            we are not responsible for any disruption, problem, damage, data
+            loss, cost, or inconvenience caused by the suggested sites or
+            technologies. We will not provide support for any sites or
+            technologies which are not our own. We exercise no control over the
+            copyright, patent, or trademark compliance or legality of the
+            suggested sites or technologies.
           </p>
 
           <h2>11. Our And Your Legal Responsibility</h2>
           <p>
-            The Resisting the Everywhere Border Map Services are provided on an “as is” and “as
-            available’ basis. To the fullest extent permitted under applicable
-            law, we provide no express, implied, or statutory warranties that
-            you will be able to access or use any Resisting the Everywhere Border Map services at
-            the times or locations of your choosing or that the Resisting the Everywhere Border Map
-            services will be uninterrupted or free of errors, bugs, corruption,
-            loss, interference, hacking, or viruses. Accordingly, we are not
-            liable to you for any loss or damage that might arise, for example,
-            from the inoperability, unavailability, or security vulnerabilities
-            of the Resisting the Everywhere Border Map Services or from your reliance on the
-            quality, accuracy, or reliability of the Resisting the Everywhere Border Map Services.
-            We also make no guarantee that the Resisting the Everywhere Border Map services will
-            work with or can be accessed on any particular devices, platforms,
-            operating systems, or equipment, or in conjunction with any
-            particular software or connectivity services. We do not accept
-            responsibility for such equipment, software, or services.
+            The Resisting the Everywhere Border Map Services are provided on an
+            “as is” and “as available’ basis. To the fullest extent permitted
+            under applicable law, we provide no express, implied, or statutory
+            warranties that you will be able to access or use any Resisting the
+            Everywhere Border Map services at the times or locations of your
+            choosing or that the Resisting the Everywhere Border Map services
+            will be uninterrupted or free of errors, bugs, corruption, loss,
+            interference, hacking, or viruses. Accordingly, we are not liable to
+            you for any loss or damage that might arise, for example, from the
+            inoperability, unavailability, or security vulnerabilities of the
+            Resisting the Everywhere Border Map Services or from your reliance
+            on the quality, accuracy, or reliability of the Resisting the
+            Everywhere Border Map Services. We also make no guarantee that the
+            Resisting the Everywhere Border Map services will work with or can
+            be accessed on any particular devices, platforms, operating systems,
+            or equipment, or in conjunction with any particular software or
+            connectivity services. We do not accept responsibility for such
+            equipment, software, or services.
           </p>
           <p>
             We expressly disclaim liability for any loss or damage caused by us
@@ -706,26 +723,27 @@
             breach of a legal duty of care owed to you by us or by any of our
             employees or agents; (b) such loss or damage is not a reasonably
             foreseeable result of any such breach; or (c) such loss or damage
-            relates to a business. By using the Resisting the Everywhere Border Map Services or
-            other services offered by us, you agree to waive any legal duty of
-            care owed to you by us, to the maximum extent allowed by law.
+            relates to a business. By using the Resisting the Everywhere Border
+            Map Services or other services offered by us, you agree to waive any
+            legal duty of care owed to you by us, to the maximum extent allowed
+            by law.
           </p>
           <p>
             To the maximum extent permissible by law, our total liability,
             whether arising in contract, tort, strict liability, or otherwise,
             including liability for any losses, costs, expenses, or damages that
-            you suffer in connection with any Resisting the Everywhere Border Map services or these
-            terms shall not exceed (in the aggregate) the fees paid to us by you
-            for your use of the Resisting the Everywhere Border Map Services, if any.
-            Notwithstanding the foregoing, nothing in these terms shall exclude
-            or limit our liability for any loss or damage, to the extent that
-            such liability cannot under any applicable law be excluded or
-            limited.
+            you suffer in connection with any Resisting the Everywhere Border
+            Map services or these terms shall not exceed (in the aggregate) the
+            fees paid to us by you for your use of the Resisting the Everywhere
+            Border Map Services, if any. Notwithstanding the foregoing, nothing
+            in these terms shall exclude or limit our liability for any loss or
+            damage, to the extent that such liability cannot under any
+            applicable law be excluded or limited.
           </p>
           <p>
             You will be liable for any loss or damage we suffer arising from
-            your breach of these terms or misuse of the Resisting the Everywhere Border Map
-            services.
+            your breach of these terms or misuse of the Resisting the Everywhere
+            Border Map services.
           </p>
 
           <p>
@@ -733,13 +751,13 @@
             would be unlawful to do so. This includes liability for death or
             personal injury caused by our negligence or the negligence of our
             employees, agents, or subcontractors and for fraud or fraudulent
-            misrepresentation. Please note that we only provide Resisting the Everywhere Border Map
-            Services for personal use. You agree not to use the Resisting the Everywhere Border Map
-            Services for any commercial or business purposes, and we have no
-            liability to you for any loss of profit, loss of business, business
-            interruption, or loss of business opportunity or any indirect or
-            consequential loss. Nothing in these terms affects your statutory
-            rights as a consumer.
+            misrepresentation. Please note that we only provide Resisting the
+            Everywhere Border Map Services for personal use. You agree not to
+            use the Resisting the Everywhere Border Map Services for any
+            commercial or business purposes, and we have no liability to you for
+            any loss of profit, loss of business, business interruption, or loss
+            of business opportunity or any indirect or consequential loss.
+            Nothing in these terms affects your statutory rights as a consumer.
           </p>
 
           <h2>12. General</h2>
@@ -797,10 +815,9 @@
             long as such force majeure event is continuing, our corresponding
             obligations under these Terms shall be suspended to the same extent.
             If such force majeure continues for a continuous period in excess of
-            four months, we may terminate access to the Resisting the Everywhere Border Map
-            Services immediately on service of notice to you.
+            four months, we may terminate access to the Resisting the Everywhere
+            Border Map Services immediately on service of notice to you.
           </p>
-
         </div>
       </section>
       <section style={active_tab !== 7 ? 'display: none;' : ''}>
@@ -813,11 +830,11 @@
             protection of your information when you access and use our platform.
             Your privacy is crucial to us, and we are committed to maintaining
             the confidentiality and security of the information you provide. By
-            using Resisting the Everywhere Border Map, you acknowledge that you have read and
-            understood this Privacy Policy. Your continued use of the platform
-            constitutes acceptance of any updates or changes to this policy. If
-            you do not agree to this Privacy Policy, do not use Queering the
-            Map.
+            using Resisting the Everywhere Border Map, you acknowledge that you
+            have read and understood this Privacy Policy. Your continued use of
+            the platform constitutes acceptance of any updates or changes to
+            this policy. If you do not agree to this Privacy Policy, do not use
+            Queering the Map.
           </p>
 
           <h2>1. Information We Collect</h2>
@@ -845,8 +862,9 @@
           <h2>2. Use of Information</h2>
           <p>
             Platform Functionality: We use the information collected to provide
-            and improve the functionality of Resisting the Everywhere Border Map, allowing users to
-            share and explore LGBTQ2IA+ experiences globally.
+            and improve the functionality of Resisting the Everywhere Border
+            Map, allowing users to share and explore LGBTQ2IA+ experiences
+            globally.
           </p>
 
           <p>
@@ -873,9 +891,10 @@
 
           <h2>4. Third-Party Services</h2>
           <p>
-            Resisting the Everywhere Border Map may use third-party services for analytics,
-            hosting, and other functionalities. These services may have their
-            own privacy policies, and users are encouraged to review them.
+            Resisting the Everywhere Border Map may use third-party services for
+            analytics, hosting, and other functionalities. These services may
+            have their own privacy policies, and users are encouraged to review
+            them.
           </p>
 
           <h2>5. Security</h2>
@@ -888,8 +907,9 @@
 
           <h2>6. Children's Privacy</h2>
           <p>
-            Resisting the Everywhere Border Map is intended for users aged 13 and older. We do not
-            knowingly collect information from individuals under the age of 13.
+            Resisting the Everywhere Border Map is intended for users aged 13
+            and older. We do not knowingly collect information from individuals
+            under the age of 13.
           </p>
 
           <h2>7. Changes to This Privacy Policy</h2>
