@@ -7,7 +7,7 @@
   "sources": {
     "qtm_pmtiles": {
       "type": "vector",
-      "url": "https://pmtiles-cloudflare.rbt-map.workers.dev/planet_z8.json",
+      "url": "https://pmtiles-cloudflare.rbt-map.workers.dev/planet_z10.json",
       "attribution": "© <a href='https://openstreetmap.org'>OpenStreetMap</a>"
     }
   },
