@@ -627,8 +627,8 @@
           </p>
           <p>
             Materials (including without limit all information, software, data,
-            text, photographs, graphics, sound and video) placed on any Queering
-            the Map Services by us, or on our behalf, are protected by our (or
+            text, photographs, graphics, sound and video) placed on any Map Services by us, 
+            or on our behalf, are protected by our (or
             our business partners/suppliers/advertisers or licensors) copyright
             and other intellectual property rights. You may not use these
             materials or any Resisting the Everywhere Border Map Services except
@@ -643,7 +643,7 @@
             Resisting the Everywhere Border Map and/or our licensors. As part of
             the license granted under these Terms, you are only granted limited
             non transferrable, non-sub-licensable permission (which can be
-            revoked at any time) to use such content or Queering the Map
+            revoked at any time) to use such content or Map
             Services, subject to and in accordance with these Terms and solely
             for your personal and non-commercial use.
           </p>
@@ -874,7 +874,7 @@
             have read and understood this Privacy Policy. Your continued use of
             the platform constitutes acceptance of any updates or changes to
             this policy. If you do not agree to this Privacy Policy, do not use
-            Queering the Map.
+            Resisting the Everywhere Border Map.
           </p>
 
           <h2>1. Information We Collect</h2>
@@ -903,8 +903,7 @@
           <p>
             Platform Functionality: We use the information collected to provide
             and improve the functionality of Resisting the Everywhere Border
-            Map, allowing users to share and explore LGBTQ2IA+ experiences
-            globally.
+            Map.
           </p>
 
           <p>
