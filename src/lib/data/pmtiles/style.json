@@ -26,7 +26,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landcover",
-      "filter": ["all", ["==", ["get", "kind"], "grassland"]],
+      "filter": ["all", ["==", "pmap:kind", "grassland"]],
       "layout": {
         "visibility": "visible"
       },
@@ -39,7 +39,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landcover",
-      "filter": ["all", ["==", ["get", "kind"], "glacier"]],
+      "filter": ["all", ["==", "pmap:kind", "glacier"]],
       "layout": {
         "visibility": "visible"
       },
@@ -59,7 +59,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landcover",
-      "filter": ["all", ["==", ["get", "kind"], "forest"]],
+      "filter": ["all", ["==", "pmap:kind", "forest"]],
       "paint": {
         "fill-color": "#C8D4B8"
       }
@@ -70,7 +70,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "natural",
       "minzoom": 8,
-      "filter": ["all", ["==", ["get", "kind"], "wood"]],
+      "filter": ["all", ["==", "pmap:kind", "wood"]],
       "paint": {
         "fill-color": "#D4CFC0"
       }
@@ -81,7 +81,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "natural",
       "minzoom": 0,
-      "filter": ["all", ["==", ["get", "kind"], "bare_rock"]],
+      "filter": ["all", ["==", "pmap:kind", "bare_rock"]],
       "paint": {
         "fill-color": "#D4CFC0"
       }
@@ -92,7 +92,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "natural",
       "minzoom": 0,
-      "filter": ["all", ["==", ["get", "kind"], "sand"]],
+      "filter": ["all", ["==", "pmap:kind", "sand"]],
       "paint": {
         "fill-color": "#D4CFC0"
       }
@@ -102,7 +102,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["==", ["get", "kind"], "hospital"]],
+      "filter": ["all", ["==", "pmap:kind", "hospital"]],
       "paint": {
         "fill-color": "#fbbdd4",
         "fill-outline-color": "rgba(245, 184, 203, 1)"
@@ -113,7 +113,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["==", ["get", "kind"], "industrial"]],
+      "filter": ["all", ["==", "pmap:kind", "industrial"]],
       "paint": {
         "fill-color": " #e49bc6",
         "fill-outline-color": "rgba(220, 164, 184, 1)"
@@ -124,7 +124,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["==", ["get", "kind"], "cemetery"]],
+      "filter": ["all", ["==", "pmap:kind", "cemetery"]],
       "paint": {
         "fill-color": "rgba(205, 203, 173, 1)"
       }
@@ -134,7 +134,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["==", ["get", "kind"], "residential"]],
+      "filter": ["all", ["==", "pmap:kind", "residential"]],
       "layout": {
         "visibility": "visible"
       },
@@ -147,7 +147,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["in", ["get", "kind"], "beach", " dog_park"]],
+      "filter": ["all", ["in", "pmap:kind", "beach", " dog_park"]],
       "paint": {
         "fill-color": "#ffdced"
       }
@@ -158,7 +158,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
       "minzoom": 4,
-      "filter": ["all", ["==", ["get", "kind"], "nature_reserve"]],
+      "filter": ["all", ["==", "pmap:kind", "nature_reserve"]],
       "paint": {
         "fill-color": "rgba(205, 203, 173, 1)"
       }
@@ -169,7 +169,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
       "minzoom": 8,
-      "filter": ["all", ["==", ["get", "kind"], "grass"]],
+      "filter": ["all", ["==", "pmap:kind", "grass"]],
       "paint": {
         "fill-color": "rgba(205, 203, 173, 1)"
       }
@@ -180,7 +180,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
       "minzoom": 8,
-      "filter": ["all", ["==", ["get", "kind"], "recreation_ground"]],
+      "filter": ["all", ["==", "pmap:kind", "recreation_ground"]],
       "paint": {
         "fill-color": "rgba(205, 203, 173, 1)"
       }
@@ -191,7 +191,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
       "minzoom": 8,
-      "filter": ["all", ["==", ["get", "kind"], "park"]],
+      "filter": ["all", ["==", "pmap:kind", "park"]],
       "paint": {
         "fill-color": "rgba(205, 203, 173, 1)"
       }
@@ -202,7 +202,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
       "minzoom": 8,
-      "filter": ["all", ["==", ["get", "kind"], "aerodrome"]],
+      "filter": ["all", ["==", "pmap:kind", "aerodrome"]],
       "paint": {
         "fill-color": "#e1e3e7"
       }
@@ -212,7 +212,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["==", ["get", "kind"], "pitch"]],
+      "filter": ["all", ["==", "pmap:kind", "pitch"]],
       "paint": {
         "fill-color": " #e49bc6",
         "fill-outline-color": "rgba(245, 184, 203, 1)"
@@ -223,7 +223,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["==", ["get", "kind"], "school"]],
+      "filter": ["all", ["==", "pmap:kind", "school"]],
       "paint": {
         "fill-color": "#fbbdd4",
         "fill-outline-color": "rgba(220, 164, 184, 1)"
@@ -234,7 +234,7 @@
       "type": "fill",
       "source": "qtm_pmtiles",
       "source-layer": "landuse",
-      "filter": ["all", ["==", ["get", "kind"], "commercial"]],
+      "filter": ["all", ["==", "pmap:kind", "commercial"]],
       "layout": {
         "visibility": "visible"
       },
@@ -268,7 +268,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "boundaries",
-      "filter": ["all", ["==", "get", "kind", "country"]],
+      "filter": ["all", ["==", "pmap:kind", "country"]],
       "layout": {
         "line-cap": "round",
         "line-join": "round",
@@ -310,7 +310,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "boundaries",
-      "filter": ["all", ["==", ["get", "kind"], "county"]],
+      "filter": ["all", ["==", "pmap:kind", "county"]],
       "layout": {
         "line-join": "round",
         "visibility": "visible"
@@ -333,7 +333,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "boundaries",
-      "filter": ["all", ["==", ["get", "kind"], "region"]],
+      "filter": ["all", ["==", "pmap:kind", "region"]],
       "layout": {
         "line-join": "round",
         "visibility": "visible"
@@ -356,7 +356,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "major_road"]],
+      "filter": ["all", ["==", "pmap:kind", "major_road"]],
       "layout": {
         "line-cap": "butt",
         "line-join": "round",
@@ -386,7 +386,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "minor_road"]],
+      "filter": ["all", ["==", "pmap:kind", "minor_road"]],
       "layout": {
         "line-cap": "round",
         "line-join": "round"
@@ -415,7 +415,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "minor_road"]],
+      "filter": ["all", ["==", "pmap:kind", "minor_road"]],
       "layout": {
         "line-cap": "round",
         "line-join": "round"
@@ -438,7 +438,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "major_road"]],
+      "filter": ["all", ["==", "pmap:kind", "major_road"]],
       "layout": {
         "line-cap": "round",
         "line-join": "round",
@@ -461,7 +461,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "highway"]],
+      "filter": ["all", ["==", "pmap:kind", "highway"]],
       "layout": {
         "line-cap": "butt",
         "line-join": "round",
@@ -491,7 +491,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "medium_road"]],
+      "filter": ["all", ["==", "pmap:kind", "medium_road"]],
       "layout": {
         "line-cap": "butt",
         "line-join": "round",
@@ -514,7 +514,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "medium_road"]],
+      "filter": ["all", ["==", "pmap:kind", "medium_road"]],
       "layout": {
         "line-cap": "round",
         "line-join": "round",
@@ -537,7 +537,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "highway"]],
+      "filter": ["all", ["==", "pmap:kind", "highway"]],
       "layout": {
         "line-cap": "round",
         "line-join": "round",
@@ -560,7 +560,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "path"]],
+      "filter": ["all", ["==", "pmap:kind", "path"]],
       "layout": {
         "visibility": "visible"
       },
@@ -592,7 +592,7 @@
       "type": "symbol",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "medium_road"]],
+      "filter": ["all", ["==", "pmap:kind", "medium_road"]],
       "layout": {
         "symbol-placement": "line",
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
@@ -619,7 +619,7 @@
       "type": "symbol",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "minor_road"]],
+      "filter": ["all", ["==", "pmap:kind", "minor_road"]],
       "layout": {
         "symbol-placement": "line",
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
@@ -647,7 +647,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "roads",
       "minzoom": 4,
-      "filter": ["all", ["==", ["get", "kind"], "highway"]],
+      "filter": ["all", ["==", "pmap:kind", "highway"]],
       "layout": {
         "symbol-placement": "line",
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
@@ -674,7 +674,7 @@
       "type": "symbol",
       "source": "qtm_pmtiles",
       "source-layer": "roads",
-      "filter": ["all", ["==", ["get", "kind"], "major_road"]],
+      "filter": ["all", ["==", "pmap:kind", "major_road"]],
       "layout": {
         "symbol-placement": "line",
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
@@ -701,7 +701,7 @@
       "type": "symbol",
       "source": "qtm_pmtiles",
       "source-layer": "places",
-      "filter": ["all", ["==", ["get", "kind"], "country"]],
+      "filter": ["all", ["==", "pmap:kind", "country"]],
       "layout": {
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
         "text-font": ["Roboto Bold"],
@@ -784,7 +784,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "places",
       "minzoom": 4,
-      "filter": ["all", ["==", ["get", "kind"], "region"]],
+      "filter": ["all", ["==", "pmap:kind", "region"]],
       "layout": {
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
         "text-font": ["Roboto Medium"],
@@ -813,7 +813,7 @@
       "source-layer": "places",
       "minzoom": 2,
       "maxzoom": 7,
-      "filter": ["all", ["==", ["get", "kind"], "locality"]],
+      "filter": ["all", ["==", "pmap:kind", "locality"]],
       "layout": {
         "text-font": ["Open Sans Regular"],
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
@@ -945,7 +945,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "places",
       "minzoom": 10,
-      "filter": ["all", ["==", ["get", "kind"], "neighbourhood"]],
+      "filter": ["all", ["==", "pmap:kind", "neighbourhood"]],
       "layout": {
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
         "text-font": ["Roboto Regular"],
@@ -974,7 +974,7 @@
       "type": "symbol",
       "source": "qtm_pmtiles",
       "source-layer": "pois",
-      "filter": ["all", ["==", ["get", "kind"], "aerodrome"]],
+      "filter": ["all", ["==", "pmap:kind", "aerodrome"]],
       "layout": {
         "text-anchor": "top",
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
@@ -1003,7 +1003,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "pois",
       "minzoom": 13,
-      "filter": ["all", ["==", ["get", "kind"], "park"]],
+      "filter": ["all", ["==", "pmap:kind", "park"]],
       "layout": {
         "text-size": 10,
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
@@ -1022,7 +1022,7 @@
       "type": "symbol",
       "source": "qtm_pmtiles",
       "source-layer": "pois",
-      "filter": ["all", ["==", ["get", "kind"], "bus_stop"]],
+      "filter": ["all", ["==", "pmap:kind", "bus_stop"]],
       "layout": {
         "icon-allow-overlap": true,
         "icon-size": 0.04,
@@ -1037,7 +1037,7 @@
       "source": "qtm_pmtiles",
       "source-layer": "pois",
       "minzoom": 13,
-      "filter": ["all", ["==", ["get", "kind"], "station"]],
+      "filter": ["all", ["==", "pmap:kind", "station"]],
       "layout": {
         "icon-size": 0.07,
         "text-field": ["string", ["get", "name:en"], ["get", "name"]],
