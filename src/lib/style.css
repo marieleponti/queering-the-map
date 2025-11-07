@@ -3,8 +3,8 @@
 :root {
   /* colors */
   --color-dark: #2f2e2e;
-  --color-pink: #ebebeb;
-  --color-pink-bright: #F5C670;
+  --color-light: #ebebeb;
+  --color-light-bright: #F5C670;
 
   /* breakpoints */
   --screen-wide: 800px;
