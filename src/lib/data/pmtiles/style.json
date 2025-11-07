@@ -268,7 +268,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "boundaries",
-      "filter": ["==", "get", "kind", "country"],
+      "filter": ["all", ["==", "get", "kind", "country"]],
       "layout": {
         "line-cap": "round",
         "line-join": "round",
@@ -285,7 +285,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "boundaries",
-      "filter": ["==", "disputed", true],
+      "filter": ["all", ["==", "disputed", true]],
       "layout": {
         "line-cap": "round",
         "line-join": "round",
@@ -310,7 +310,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "boundaries",
-      "filter": ["==", ["get", "kind"], "county"],
+      "filter": ["all", ["==", ["get", "kind"], "county"]],
       "layout": {
         "line-join": "round",
         "visibility": "visible"
@@ -333,7 +333,7 @@
       "type": "line",
       "source": "qtm_pmtiles",
       "source-layer": "boundaries",
-      "filter": ["==", ["get", "kind"], "region"],
+      "filter": ["all", ["==", ["get", "kind"], "region"]],
       "layout": {
         "line-join": "round",
         "visibility": "visible"
