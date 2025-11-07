@@ -168,9 +168,12 @@
         <h2>Who made resisting the Everywhere Border Map?</h2>
         <div class="overlay__section-text">
           <p>
-            Resisting the Everywhere Border is forked from <a href="https://github.com/radical-data/queering-the-map">Queering the Map</a>, which was created by Lucas LaRochelle in
-            2017. The platform is maintained by LaRochelle and a global network
-            of moderators, developers, and advisors.
+            Resisting the Everywhere Border is forked from <a
+              href="https://github.com/radical-data/queering-the-map"
+              >Queering the Map</a
+            >, which was created by Lucas LaRochelle in 2017. The platform is
+            maintained by LaRochelle and a global network of moderators,
+            developers, and advisors.
           </p>
           <p>
             This network includes (in alphabetical order by last name):
@@ -234,6 +237,35 @@
           >
           <span> By Mizue Aizeki, Laura Bingham, and Santiago Narváez</span>
         </div>
+      </section>
+
+      <section style={active_tab !== 2 ? 'display: none;' : ''}>
+        <h2 style="margin-bottom:0px;">Support Us</h2>
+
+        <p>
+          Your involvement fuels this movement. Support can take many forms:
+          adding your story or strategy of resistance, sharing the map with your
+          networks, contributing research, or joining groups, collectives, and
+          organizations advocating for migrant justice, racial justice, and
+          digital rights, or donating to grassroots groups resisting border
+          technologies worldwide. Together we build collective power to
+          dismantle the systems that underpin pervasive digital surveillance and
+          exclusion.
+        </p>
+
+        <p>
+          Although our core moderation team is small and the number of
+          submissions is manageable, we warmly invite anyone interested in
+          volunteering their time to help support this important work. If you
+          would like to contribute as a volunteer moderator or assist in other
+          ways, please contact us at contact@everywhereborder.org
+        </p>
+
+        <p>
+          Finally, this map was built using the open source code by Radical Data
+          and their Queering the Map project. To learn more about Radical Data
+          and support their projects, you can visit radicaldata.org
+        </p>
       </section>
 
       <section style={active_tab !== 6 ? 'display: none;' : ''}>
@@ -348,13 +380,13 @@
           <h2>1. Introduction</h2>
           <p>
             The Resisting the Everywhere Border Map website, application and
-            other services are made available
-            to you in accordance with these Terms by Resisting the Everywhere
-            Border Map (“Resisting the Everywhere Border Map”, “we”, “our”,
-            “us”). These terms and conditions of use, together with our Privacy
-            Policy and all supplemental terms (as amended from time to time),
-            other documents and policies that are expressly referenced in these
-            terms and conditions (the “Terms”), govern your use of the Services.
+            other services are made available to you in accordance with these
+            Terms by Resisting the Everywhere Border Map (“Resisting the
+            Everywhere Border Map”, “we”, “our”, “us”). These terms and
+            conditions of use, together with our Privacy Policy and all
+            supplemental terms (as amended from time to time), other documents
+            and policies that are expressly referenced in these terms and
+            conditions (the “Terms”), govern your use of the Services.
           </p>
           <p>
             Please read these Terms carefully. These Terms form a legally
@@ -431,7 +463,8 @@
             to the Resisting the Everywhere Border Map Services. If you want
             your User Content removed from the Resisting the Everywhere Border
             Map Services at any time, and for any reason, please contact us at <a
-              href="mailto:hi@queeringthemap.com">hi@queeringthemap.com</a
+              href="mailto:contact@everywhereborder.org"
+              >contact@everywhereborder.org</a
             >. We will remove your content from the Resisting the Everywhere
             Border Map Services in a reasonable and timely manner.
           </p>
@@ -571,9 +604,8 @@
             If you do not agree with the terms of this License, you are not
             authorized to use or access the Resisting the Everywhere Border Map
             Services. For any questions or clarifications regarding this
-            License, please refer to the provided URL or contact us at <a
-              href="mailto:hi@queeringthemap.com">hi@queeringthemap.com</a
-            >.
+            License, please refer to the provided URL or contact us through the
+            contact form on the About page.
           </p>
 
           <h2>7. Intellectual Property Rights, Ownership And Restrictions</h2>
@@ -923,8 +955,8 @@
           <h2>8. Preteens And Users Under 18</h2>
           <p>
             For answers to any questions you may have about our Terms of Use,
-            email us at <a href="mailto:hi@queeringthemap.com"
-              >hi@queeringthemap.com</a
+            email us at <a href="contact@everywhereborder.org"
+              >contact@everywhereborder.org</a
             >.
           </p>
         </div>
@@ -933,27 +965,9 @@
         <h2>Contact</h2>
         <div class="overlay__section-text">
           <p>
-            Get in touch at <a href="mailto:hi@queeringthemap.com"
-              >hi@queeringthemap.com</a
+            Get in touch at <a href="contact@everywhereborder.org"
+              >hcontact@everywhereborder.org</a
             >
-          </p>
-          <p>
-            Stay connected with us on <a
-              href="https://www.instagram.com/queeringthemap/"
-              target="_blank"
-              rel="noopener">Instagram</a
-            >,
-            <a
-              href="https://twitter.com/queeringthemap_"
-              target="_blank"
-              rel="noopener">Twitter</a
-            >
-            and
-            <a
-              href="https://www.tiktok.com/@queering_the_map"
-              target="_blank"
-              rel="noopener">TikTok</a
-            >.
           </p>
         </div>
       </section>
