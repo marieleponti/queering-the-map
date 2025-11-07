@@ -18,7 +18,7 @@
       "id": "background",
       "type": "background",
       "paint": {
-        "background-color": "#ecbfd7"
+        "background-color": "#E8E4D9"
       }
     },
     {
@@ -31,15 +31,7 @@
         "visibility": "visible"
       },
       "paint": {
-        "fill-color": [
-          "interpolate",
-          ["exponential", 1],
-          ["zoom"],
-          1,
-          "hsla(330, 96%, 82%, 0.25)",
-          7,
-          "hsla(330, 96%, 82%, 0.6)"
-        ]
+        "fill-color": "#C8D4B8"
       }
     },
     {
@@ -59,7 +51,7 @@
             [10, 0.3]
           ]
         },
-        "fill-color": "#ffdced"
+        "fill-color": "#9DC3D4"
       }
     },
     {
@@ -69,15 +61,8 @@
       "source-layer": "landcover",
       "filter": ["all", ["==", "pmap:kind", "forest"]],
       "paint": {
-        "fill-color": [
-          "interpolate",
-          ["exponential", 1],
-          ["zoom"],
-          1,
-          "hsla(330, 96%, 82%, 0.25)",
-          7,
-          "hsla(330, 96%, 82%, 0.6)"
-        ]
+          "fill-color": "#C8D4B8"
+
       }
     },
     {
@@ -88,7 +73,7 @@
       "minzoom": 8,
       "filter": ["all", ["==", "pmap:kind", "wood"]],
       "paint": {
-        "fill-color": "rgba(205, 203, 173, 1)"
+        "fill-color": "#D4CFC0"
       }
     },
     {
@@ -99,15 +84,8 @@
       "minzoom": 0,
       "filter": ["all", ["==", "pmap:kind", "bare_rock"]],
       "paint": {
-        "fill-color": [
-          "interpolate",
-          ["exponential", 1],
-          ["zoom"],
-          1,
-          "hsla(330, 96%, 82%, 0.25)",
-          7,
-          "hsla(330, 96%, 82%, 0.6)"
-        ]
+        "fill-color": "#D4CFC0"
+
       }
     },
     {
@@ -118,15 +96,8 @@
       "minzoom": 0,
       "filter": ["all", ["==", "pmap:kind", "sand"]],
       "paint": {
-        "fill-color": [
-          "interpolate",
-          ["exponential", 1],
-          ["zoom"],
-          1,
-          "hsla(330, 96%, 82%, 0.25)",
-          7,
-          "hsla(330, 96%, 82%, 0.6)"
-        ]
+        "fill-color": "#D4CFC0"
+
       }
     },
     {
@@ -282,7 +253,7 @@
       "filter": ["all"],
       "paint": {
         "fill-color": "#efc7da",
-        "fill-outline-color": "rgba(220, 164, 184, 1)"
+        "fill-outline-color": "#D4CFC0"
       }
     },
     {
@@ -292,7 +263,7 @@
       "source-layer": "water",
       "filter": ["all"],
       "paint": {
-        "fill-color": "#788BF2"
+        "fill-color": "#9DC3D4"
       }
     },
     {
