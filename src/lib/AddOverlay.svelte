@@ -324,7 +324,7 @@
     width: 100%;
     font-size: 12pt;
     height: 12em;
-    background-color: #F5C670;
+    background-color: #f5c670;
     border: 1.01px solid var(--color-dark);
   }
 

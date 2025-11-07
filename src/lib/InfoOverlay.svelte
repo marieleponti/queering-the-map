@@ -2,70 +2,22 @@
   import { infoOverlayVisible } from '../stores';
   import CloseButton from './CloseButton.svelte';
 
-  import tabs from '$lib/content/tabs.yaml';
-  import pressData from '$lib/content/press.yaml';
-  import faqsData from '$lib/content/faqs.yaml';
-
-  interface Tab {
-    key: string;
-    label: string;
-    Component?: import('svelte').ComponentType;
-  }
-
-  interface PressItem {
-    outlet: string;
-    title: string;
-    url: string;
-    author?: string;
-    year?: number;
-    featured?: boolean;
-  }
-
-  interface FaqItem {
-    q: string;
-    a: string;
-  }
-
-  const mods = import.meta.glob('$lib/content/info/*.md', {
-    eager: true
-  }) as Record<string, { default: import('svelte').ComponentType }>;
-
-  const markdownByKey: Record<string, import('svelte').ComponentType> = {};
-  for (const [path, mod] of Object.entries(mods)) {
-    const key = path.split('/').pop()?.replace('.md', '') ?? '';
-    markdownByKey[key] = mod.default;
-  }
-
-  const sections = (tabs as Tab[]).map((t) => ({
-    ...t,
-    Component: markdownByKey[t.key] || undefined
-  }));
-
-  const LS_KEY = 'active_tab';
-  let activeKey =
-    (typeof localStorage !== 'undefined' && localStorage.getItem(LS_KEY)) ||
-    sections[0].key;
-
-  $: if (activeKey) localStorage.setItem(LS_KEY, activeKey);
-
-  function selectTab(key: string) {
-    activeKey = key;
-    container?.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  let container: HTMLElement;
-
-  $: featuredPress = (pressData as PressItem[]).filter((p) => p.featured);
-  $: allPress = (pressData as PressItem[]).filter((p) => !p.featured);
-  $: faqsList = faqsData as FaqItem[];
-
+  let root: HTMLElement;
+  let active_tab = localStorage.getItem('active_tab')
+    ? Number(localStorage.getItem('active_tab'))
+    : 1;
   function closeInfoOverlay() {
     infoOverlayVisible.update(() => false);
-    localStorage.removeItem(LS_KEY);
+    localStorage.removeItem('active_tab');
+  }
+
+  function showTabState(parameter: number) {
+    active_tab = parameter;
+    root.scrollTop = 0;
   }
 </script>
 
-<aside class="overlay overlay--info" bind:this={container}>
+<aside class="overlay overlay--info" bind:this={root}>
   <CloseButton functionOnClick={closeInfoOverlay}
     >close info overlay</CloseButton
   >
@@ -1911,20 +1863,26 @@
     </div>
     <div class="footer__menu__margin">
       <div class="info__tabs first__row">
-        {#each sections.slice(4, 6) as s}
-          <button
-            class:active={activeKey === s.key}
-            on:click={() => selectTab(s.key)}>{s.label}</button
-          >
-        {/each}
+        <button class:active={active_tab == 5} on:click={() => showTabState(5)}
+          >FAQs
+        </button>
+        <button
+          class:active={active_tab == 6}
+          style="border-right: unset;"
+          on:click={() => showTabState(6)}
+          >Terms of Use
+        </button>
       </div>
       <div class="info__tabs">
-        {#each sections.slice(6, 8) as s}
-          <button
-            class:active={activeKey === s.key}
-            on:click={() => selectTab(s.key)}>{s.label}</button
-          >
-        {/each}
+        <button class:active={active_tab == 7} on:click={() => showTabState(7)}
+          >Privacy Policy
+        </button>
+        <button
+          class:active={active_tab == 8}
+          style="border-right: unset;"
+          on:click={() => showTabState(8)}
+          >Contact
+        </button>
       </div>
     </div>
   </div>
@@ -1934,29 +1892,20 @@
   a {
     cursor: pointer;
   }
-  :global(ul) {
+  ul {
     list-style-type: disc;
     margin-top: -5px;
+
     padding-right: 1em;
   }
-  :global(ul.voidcircle li) {
+  ul.voidcircle li {
     margin-top: -5px;
     padding-bottom: 10px;
   }
-  :global(ul.voidcircle) {
+  ul.voidcircle {
     padding-left: 3.5em;
     padding-right: 1.5em;
     list-style-type: circle;
-  }
-  :global(ol) {
-    list-style-type: decimal;
-    margin-top: -5px;
-    padding-right: 1em;
-    padding-left: 1em;
-  }
-  :global(ol li) {
-    margin-top: -5px;
-    padding-bottom: 10px;
   }
   .__press h2.divider {
     border-top: 1.01px solid var(--color-dark);
@@ -1972,6 +1921,7 @@
     padding-left: 10px;
     margin-top: 10px;
     display: none;
+    /* hides press names */
   }
   .__press a {
     padding-left: 1em;
@@ -1993,13 +1943,13 @@
     width: calc((40vw));
     position: sticky;
     bottom: 0px;
-    background: var(--color-light);
+    background: var(--color-pink);
   }
   .header__menu__margin {
     width: calc((40% - 43px));
     left: 54px;
     position: fixed;
-    background: var(--color-light);
+    background: var(--color-pink);
   }
 
   .info__tabs {
@@ -2020,11 +1970,11 @@
   }
   .info__tabs button.active {
     background-color: var(--color-dark);
-    color: var(--color-light);
+    color: var(--color-pink);
   }
   .info__tabs button:hover {
     background-color: black;
-    color: var(--color-light);
+    color: var(--color-pink);
     transition-duration: 300ms;
     transition-timing-function: ease;
   }
@@ -2036,14 +1986,14 @@
   .info__tabs.first__row button {
     border-bottom: 0px;
   }
-  :global(.partial_div-numbered) {
+  .partial_div-numbered {
     display: flex;
     gap: 8px;
   }
-  :global(.partial_div-numbered p) {
+  .partial_div-numbered p {
     margin-top: 0px;
   }
-  :global(.partial_div-numbered span) {
+  .partial_div-numbered span {
     border: 1.01px solid var(--color-dark);
     border-radius: 50%;
     min-width: 22px;
@@ -2058,15 +2008,15 @@
     position: fixed;
     z-index: var(--overlay-z-index);
     top: 0;
-    background-color: var(--color-light);
+    background-color: var(--color-pink);
     overflow-x: hidden;
   }
 
-  :global(.overlay__outer section p) {
+  .overlay__outer section p {
     padding-left: 1em;
     padding-right: 1em;
   }
-  :global(.overlay__outer section ul p) {
+  .overlay__outer section ul p {
     padding-left: 0em;
     padding-right: 0em;
   }
@@ -2082,7 +2032,7 @@
     margin-top: 2em;
   }
 
-  :global(h2) {
+  h2 {
     text-decoration: none;
     font-size: 15px;
     color: var(--color-dark);
@@ -2091,9 +2041,8 @@
     padding-bottom: 4px;
     border-top: 1px solid var(--color-dark);
     padding-left: 2.05rem;
-    padding-top: 1em;
   }
-  :global(.overlay__content h2) {
+  .overlay__content h2 {
     font-weight: bold;
     font-size: 15px;
   }
@@ -2104,7 +2053,7 @@
     }
   }
 
-  :global(.overlay__section-text) {
+  .overlay__section-text {
     text-decoration: none;
     color: var(--color-dark);
     display: block;
@@ -2112,24 +2061,24 @@
     font-size: 15px;
   }
 
-  :global(.overlay__section-text > *:first-child) {
+  .overlay__section-text > *:first-child {
     margin-top: 0;
   }
 
-  :global(.overlay__section-text > *:last-child) {
+  .overlay__section-text > *:last-child {
     margin-bottom: 0;
   }
 
-  :global(a) {
+  a {
     text-decoration: underline;
     text-decoration-color: var(--color-dark);
     color: var(--color-dark);
   }
 
-  :global(a:not(.closebtn):hover),
-  :global(a:not(.closebtn):focus) {
-    color: var(--color-yellow);
-    text-decoration-color: var(--color-yellow);
+  a:not(.closebtn):hover,
+  a:not(.closebtn):focus {
+    color: var(--color-pink-bright);
+    text-decoration-color: var(--color-pink-bright);
   }
 
   .overlay--info {
@@ -2162,7 +2111,7 @@
       width: calc(100vw - 18px);
     }
     .overlay__outer {
-      background: var(--color-light);
+      background: var(--color-pink);
       border: 1.01px solid var(--color-dark);
       border-bottom: 0px;
     }
