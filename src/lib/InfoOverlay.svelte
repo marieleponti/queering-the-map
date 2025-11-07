@@ -206,7 +206,7 @@
           or collaborations, please contact us at contact@everywhereborder.org
         </p>
 
-        <h3>Featured work:</h3>
+        <h3 style="margin-left:4px;">Featured work:</h3>
         <div class="__press">
           <h2>Transnational Institute</h2>
           <a
