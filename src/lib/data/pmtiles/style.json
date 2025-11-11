@@ -13,48 +13,48 @@
   },
   "sprite": "https://pmtiles-cloudflare.rbt-map.workers.dev/qtm_sprites",
   "glyphs": "https://orangemug.github.io/font-glyphs/glyphs/{fontstack}/{range}.pbf",
- "layers": [
-  {
-    "id": "background",
-    "type": "background",
-    "paint": {
-      "background-color": "#ecbfd7"
-    }
-  },
-  {
-    "id": "water",
-    "type": "fill",
-    "source": "qtm_pmtiles",
-    "source-layer": "water",
-    "paint": {
-      "fill-color": "#788BF2"
-    }
-  },
-  {
-    "id": "boundaries",
-    "type": "line",
-    "source": "qtm_pmtiles",
-    "source-layer": "boundaries",
-    "paint": {
-      "line-color": "#FF0000",
-      "line-width": 3
-    }
-  },
-  {
-    "id": "places",
-    "type": "symbol",
-    "source": "qtm_pmtiles",
-    "source-layer": "places",
-    "layout": {
-      "text-field": ["get", "name"],
-      "text-size": 16
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#ecbfd7"
+      }
     },
-    "paint": {
-      "text-color": "#000000",
-      "text-halo-color": "#FFFFFF",
-      "text-halo-width": 2
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "qtm_pmtiles",
+      "source-layer": "water",
+      "paint": {
+        "fill-color": "#788BF2"
+      }
+    },
+    {
+      "id": "boundaries",
+      "type": "line",
+      "source": "qtm_pmtiles",
+      "source-layer": "boundaries",
+      "paint": {
+        "line-color": "#FF0000",
+        "line-width": 3
+      }
+    },
+    {
+      "id": "places",
+      "type": "symbol",
+      "source": "qtm_pmtiles",
+      "source-layer": "places",
+      "layout": {
+        "text-field": ["get", "name"],
+        "text-size": 16
+      },
+      "paint": {
+        "text-color": "#000000",
+        "text-halo-color": "#FFFFFF",
+        "text-halo-width": 2
+      }
     }
-  }
-],
+  ],
   "id": "7l57b4r"
 }
