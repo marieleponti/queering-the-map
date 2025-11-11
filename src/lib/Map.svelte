@@ -8,7 +8,6 @@
     type MapMouseEvent,
     type MapGeoJSONFeature
   } from 'maplibre-gl';
-  import { Protocol } from 'pmtiles';  
   const {
     AttributionControl,
     Map,
@@ -89,8 +88,6 @@
   }
 
   onMount(() => {
-    const protocol = new Protocol();
-    maplibregl.addProtocol('pmtiles', protocol.tile);
     map = new Map({
       container: mapContainer,
       style: style,
@@ -291,7 +288,6 @@
     if (map) {
       map.remove();
     }
-    maplibregl.removeProtocol('pmtiles'); 
   });
 </script>
 
