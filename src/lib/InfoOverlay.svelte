@@ -973,7 +973,7 @@
         <div class="overlay__section-text">
           <p>
             Get in touch at <a href="contact@everywhereborder.org"
-              >hcontact@everywhereborder.org</a
+              >contact@everywhereborder.org</a
             >
           </p>
         </div>

@@ -93,7 +93,7 @@
       style: style,
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom,
-      minZoom: 3,
+      minZoom: 1,
       maxZoom: 18,
       attributionControl: false
     });
